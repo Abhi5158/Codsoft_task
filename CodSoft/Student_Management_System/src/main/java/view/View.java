@@ -98,7 +98,7 @@ public class View {
 	}
 
 	// Method to start the system
-	public void start() {
+	public void disp() {
 		while (true) {
 			System.out.println("1. Add Student");
 			System.out.println("2. Remove Student");
@@ -136,8 +136,8 @@ public class View {
 	}
 
 	public static void main(String[] args) {
-		View system = new View();
-		system.start();
+		View view = new View();
+		view.disp();
 	}
 
 }
